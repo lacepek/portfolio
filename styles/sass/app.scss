@@ -1,0 +1,46 @@
+@import './lib/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+
+  body {
+    width: 100%;
+    box-sizing: border-box;
+
+    header {
+      background-color: $background-dark;
+      color: $text-light;
+    }
+
+    main {
+      img {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 30pt;
+        text-transform: uppercase;
+      }
+
+      section {
+        background-color: $background-light;
+        padding: 0 $side-padding;
+        margin-top: $section-margin;
+
+        h1 {
+          border-bottom: 3px solid $text-dark;
+          margin: 0 auto 25pt;
+        }
+      }
+    }
+  }
+}
+
+@import './lib/sections/about';
+@import './lib/sections/projects';

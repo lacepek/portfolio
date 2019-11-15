@@ -1,0 +1,12 @@
+@import '../variables';
+
+section#about {
+  #bio {
+    text-align: center;
+
+    img.me {
+      width: 150pt;
+      border-radius: 150pt;
+    }
+  }
+}
